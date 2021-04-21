@@ -24,5 +24,4 @@ func main() {
 
 	// tampilkan hasil nilai rata rata pada variable nilai_rata_rata
 	// menggunakan fungsi Println pada package fmt
-	fmt.Println("Nilai rata rata :")
 }
