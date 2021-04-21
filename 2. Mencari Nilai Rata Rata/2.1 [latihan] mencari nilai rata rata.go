@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // import package `fmt` untuk dapat menggunakan fungsi menampilkan data
 // https://golang.org/pkg/fmt
 
@@ -13,9 +11,8 @@ func main() {
 
 	// buatlah sebuah perulangan menggunakan for - range dengan mengiterasi array nilai
 	// https://gobyexample.com/range
-	for _, n := range nilai {
-		// jumlahkan setiap value dari array nilai dan tambahkan pada variable total_nilai
-	}
+
+	// jumlahkan setiap value dari array nilai dan tambahkan pada variable total_nilai dengan menggunakan operator += (lakukan ini didalam scope perulangan for - range)
 
 	// buatlah sebuah variable nilai_rata_rata bertipe data int
 	// lakukan perhitungan untuk mencari rata rata nilai dengan rumus, total_nilai dibagi dengan jumlah dari array nilai
