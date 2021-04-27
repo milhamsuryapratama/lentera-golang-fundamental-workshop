@@ -4,18 +4,23 @@ package main
 // 📖 https://golang.org/pkg/fmt
 
 func main() {
-	// 💻 buatlah sebuah variable dengan nama `nilai`, bertipe data `int` dengan nilai `95`
+	// 💻 buatlah sebuah variable dengan nama nilai, bertipe data int dengan value 95
 	// 📖 https://gobyexample.com/variables
 
-	// 💻 buatlah percabangan menggunakan `if - else` dan tentukan output dari nilai tersebut
+	// ini referensi tentang if - else, mungkin bisa membantu untuk memahami kode dibawah
 	// 📖 https://gobyexample.com/if-else
 
-	// kriteria 1 : jika nilai lebih dari 90, maka tampilkan `nilai anda sempurna, terus belajar` pada layar
-	// kriteria 2 : jika nilai lebih besar sama dengan 75 dan lebih kecil dari 90, maka tampilkan `nilai anda bagus, terus tingkatkan` pada layar
-	// kriteria 3 : jika nilai tidak memenuhi kriteria 1 dan 2, maka tampilkan `nilai anda kurang, terus semangat` pada layar
+	// ubah kondisi dibawah ini, jika nilai lebih dari 90
 	// 📖 https://golang.org/ref/spec#Operators
-	if n := 0; n == 0 {
-		// 💻 gunakan fungsi `Println` dari package untuk menampilkan output pada layar
+	if true {
+		// maka tampilkan `nilai anda sempurna, terus belajar` pada layar
+		// 📖 https://golang.org/pkg/fmt/#Println
+		// jika nilai lebih besar sama dengan 75 dan lebih kecil dari 90
+	} else if true {
+		// maka tampilkan `nilai anda bagus, terus tingkatkan` pada layar
+		// 📖 https://golang.org/pkg/fmt/#Println
+	} else {
+		// maka tampilkan `nilai anda kurang, terus semangat` pada layar
 		// 📖 https://golang.org/pkg/fmt/#Println
 	}
 }

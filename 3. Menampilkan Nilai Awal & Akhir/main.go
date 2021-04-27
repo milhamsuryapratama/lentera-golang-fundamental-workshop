@@ -4,9 +4,7 @@ package main
 // https://golang.org/pkg/fmt | https://golang.org/pkg/sort
 
 func main() {
-	// buatlah sebuah array dengan nama nilai, bertipe data int dan mempunyai panjang 7
-	// lalu isi array nilai tersebut dengan angka
-	// https://tour.golang.org/moretypes/6
+	nilai := [7]int{80, 90, 87, 70, 95, 84, 70}
 
 	// dapatkan tiga nilai paling awal dari array nilai menggunakan teknik 2 index pada slice dan simpan pada variable dengan nama tiga_nilai_awal
 	// dapatkan tiga nilai paling akhir dari array nilai menggunakan teknik 2 index pada slice dan simpan pada variable dengan nama tiga_nilai_akhir
