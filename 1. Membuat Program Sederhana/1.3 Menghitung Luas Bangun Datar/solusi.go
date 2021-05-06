@@ -16,5 +16,7 @@ func main() {
 
 	luas := hitungLuas(alas, tinggi)
 
-	fmt.Println(luas)
+	fmt.Println("Alas :", alas)
+	fmt.Println("Tinggi :", tinggi)
+	fmt.Println("Luas segitiga: ", luas)
 }
