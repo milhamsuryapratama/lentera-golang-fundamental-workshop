@@ -14,7 +14,7 @@ func main() {
 		tinggi float32 = 10
 	)
 
-	luas := hitungLuas(alas, tinggi)
+	hasilLuas := hitungLuas(alas, tinggi)
 
-	fmt.Println(luas)
+	fmt.Println(hasilLuas)
 }
