@@ -16,5 +16,5 @@ func main() {
 
 	hasilLuas := hitungLuas(alas, tinggi)
 
-	fmt.Println(hasilLuas)
+	fmt.Println("Luas Segitiga :", hasilLuas)
 }
