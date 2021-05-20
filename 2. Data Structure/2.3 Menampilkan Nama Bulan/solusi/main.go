@@ -24,7 +24,7 @@ func main() {
 		bulan["duabelas"] = "Desember"
 	}
 
-	for i, b := range bulan {
-		fmt.Println("bulan", i, "adalah", b)
+	for key, b := range bulan {
+		fmt.Printf("bulan %s adalah %s \n", key, b)
 	}
 }

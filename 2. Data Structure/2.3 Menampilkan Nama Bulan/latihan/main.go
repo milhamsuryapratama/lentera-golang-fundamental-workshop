@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// 💻 buatlan maps dengan nama bulan dengan tipe data keynya adalah string dan tipe data valuenya juga string
@@ -16,6 +14,7 @@ func main() {
 
 	// 💻 lakukan perulangan terhadap map bulan menggunakan for - range
 	for {
-		// tampilkan pesan pada layan "bulan satu adalah Januari", secara berurutan menggunakan fungsi Println pada package fmt
+		// tampilkan data map bulan pada setiap perulangannya di layar menggunakan fungsi Printf pada package fmt
+		fmt.Printf("")
 	}
 }
