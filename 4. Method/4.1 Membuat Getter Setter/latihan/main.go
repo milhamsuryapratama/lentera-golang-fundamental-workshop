@@ -1,19 +1,17 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 type Siswa struct {
 	Nama   string
 	Alamat string
 }
 
-// 💻 buatlah method dengan nama setNama
+// 💻 buatlah method dengan nama SetNama
 // 💻 ubah properti nama dari struct Siswa menjadi "ilham"
 // 📖 https://tour.golang.org/methods/1
 
-// 💻 buatlah method dengan nama setNama
+// 💻 buatlah method dengan nama SetAlamat
 // 💻 ubah properti alamat dari struct Siswa menjad "Probolinggo"
 
 // 💻 buatlah method dengan nama GetNama
@@ -31,5 +29,4 @@ func main() {
 	// 💻 buat variable alamat dan panggil method GetAlamat
 
 	// 💻 tampilkan variable nama dan alamat menggunakan fungsi Println pada package fmt
-	fmt.Println()
 }
