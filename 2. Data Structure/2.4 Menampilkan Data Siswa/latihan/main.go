@@ -12,6 +12,7 @@ import "fmt"
 
 // 💻 buatlah sebuah struct dengan nama Kelas, isi dengan properti
 // NamaKelas bertipe data string
+// lihat cara membuat struct pada kode struct `Vertex` setelah `import "fmt"` (referensi ke-1)
 // 📖 https://tour.golang.org/moretypes/2 | https://gobyexample.com/structs
 
 // 💻 buatlah sebuah struct dengan nama Siswa, isi dengan properti
@@ -19,14 +20,17 @@ import "fmt"
 // Alamat bertipe data string
 // JenisKelamin bertipe data JK
 // 💻 dan buatlah embedded struct Kelas pada struct pada struct Siswa
-// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html (point A.24.5)
+// kode untuk membuat embedded struct bisa dilihat pada poin A.24.5
+// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html
 
 func main() {
 	// 💻 inisialiasi sebuah variable dengan nama siswa bertipe data struct Siswa
-	// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html (point A.24.2)
+	// inisialisasi variable dengan tipe data struct bisa dilihat pada point A.24.2
+	// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html
 
 	// 💻 isi properti Nama, Alamat, JenisKelamin dan NamaKelas
-	// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html (point A.24.3)
+	// untuk mengiri value dari properti struct bisa dilihat pada point A.24.3
+	// 📖 https://dasarpemrogramangolang.novalagung.com/A-struct.html
 
 	// tampilkan variable siswa menggunakan fungsi Println pada package fmt
 	fmt.Println()
